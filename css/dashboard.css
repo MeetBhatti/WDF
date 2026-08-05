@@ -1,0 +1,80 @@
+/* body{ 
+    background:#F4F8FC;
+}
+
+.cards{
+    width:80%;
+    margin:30px auto;
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 4px 10px lightgray;
+}
+
+h2{
+    color:#0F4C81;
+    text-align:center;
+}
+
+input,select,textarea{
+    width:95%;
+    padding:10px;
+    border-radius:6px;
+    margin-top:5px;
+}
+
+button{
+    background:#0F4C81;
+    color:white;
+    padding:10px 20px;
+    border:none;
+    border-radius:6px;
+}
+
+button:hover{
+    background:#1565C0;
+}
+    */
+    /* ===============================
+        DASHBOARD PAGE
+================================ */
+.cards{
+    width:80%;
+    margin:30px auto;
+    background:white;
+    padding:25px;
+    border-radius:10px;
+} 
+
+h2{
+    text-align:center;
+    color:#0F4C81;
+}
+
+label{
+    font-weight:bold;
+}
+
+input,textarea,select{
+    width:95%;
+    padding:10px;
+    margin-top:5px;
+    border:1px solid #ccc;
+    border-radius:6px;
+}
+
+button{
+    background:#0F4C81;
+    color:white;
+    padding:10px 20px;
+    border:none;
+    border-radius:6px;
+}
+
+footer{
+    margin-top:30px;
+    text-align:center;
+    background:#0F4C81;
+    color:white;
+    padding:15px;
+}

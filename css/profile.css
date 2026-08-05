@@ -1,0 +1,24 @@
+body{
+    background:#F4F8FC;
+}
+
+h2{
+    text-align:center;
+    color:#0F4C81;
+}
+
+body p{
+    width:60%;
+    margin: 10px auto;
+    background:white;
+    padding:10px;
+    border-radius:6px;
+}
+
+footer{
+    margin-top:30px;
+    text-align:center;
+    background:#0F4C81;
+    color:white;
+    padding:15px;
+}

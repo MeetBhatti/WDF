@@ -1,0 +1,49 @@
+body{
+    background:#F4F8FC;
+}
+
+.register-box{
+    width:500px;
+    margin:30px auto;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+}
+
+h2{
+    text-align:center;
+    color:#0F4C81;
+}
+
+p{
+    text-align:center;
+    color:#555;
+}
+
+label{
+    font-weight:bold;
+}
+
+input,textarea,select{
+    width:95%;
+    padding:8px;
+    border:1px solid #ccc;
+    border-radius:5px;
+   
+}
+
+button{
+    width:100%;
+    padding:10px;
+    background:#0F4C81;
+    color:white;
+    border:none;
+    border-radius:5px;
+}
+footer{
+    margin-top:30px;
+    text-align:center;
+    background:#0F4C81;
+    color:white;
+    padding:15px;
+}
