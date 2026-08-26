@@ -1,0 +1,97 @@
+body{
+    background-color:red(255, 255, 255, 0.79);
+}
+header {
+    padding: 25px;
+    text-align: center;
+    background-color: #126782;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 15px;
+}
+
+nav a {
+    padding: 8px;
+    color: white;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #ffd166;
+    background-color: #0b4d63;
+    border-radius: 5px;
+}
+#view_button
+{   display: flex;
+    text-align: center;
+    margin:auto;
+    padding:10px;
+    border-radius: 7px;
+    border: 1px solid black;
+}
+.technical_club
+{
+     display: flex;
+    justify-content: justify;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.coding_club
+{
+    display: flex;
+    justify-content: justify;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.robotics_club
+{
+    display: flex;
+    justify-content: justify;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.club-card {
+    width: 300px;
+    padding: 15px;
+    border: 1px solid #b8cbd0;
+    border-radius: 10px;
+    background-color: white;
+}
+.club-card:hover {
+    
+    box-shadow:  5px 12px #9eb2b8;
+}
+.coding-card {
+    width: 300px;
+    padding: 15px;
+    border: 1px solid #b8cbd0;
+    border-radius: 10px;
+    background-color: white;
+}
+.coding-card:hover {
+    
+    box-shadow:  5px 12px #9eb2b8;
+}
+.robotics-card {
+    width: 300px;
+    padding: 15px;
+    border: 1px solid #b8cbd0;
+    border-radius: 10px;
+    background-color: white;
+}
+.robotics:hover {
+    
+    box-shadow:  5px 12px #9eb2b8;
+}
+
+footer {
+    margin-top:auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #17324d;
+    color: white;
+}
