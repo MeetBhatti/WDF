@@ -1,0 +1,52 @@
+table{
+    width:90%;
+    margin:30px auto;
+    border-collapse:collapse;
+    background:white;
+    box-shadow:0px 4px 12px rgba(0,0,0,.15);
+    border-radius:8px;
+}
+
+th{
+    background:#0F4C81;
+    color:white;
+    padding:14px;
+    font-size:15px;
+}
+td
+{
+      padding:12px;
+    text-align:center;
+}
+
+body{
+    background:#f4f8fc;
+    font-family:Arial, Helvetica, sans-serif;
+     text-align:center;
+    color:#555;
+    line-height:24px;
+}
+
+/* Main Heading */
+
+h2{
+    text-align:center;
+    color:#0F4C81;
+    font-size:32px;
+    margin-top:30px;
+}
+/* Instruction Heading */
+
+p h2{
+    color:#0F4C81;
+}
+/* Footer */
+
+
+footer{
+    margin-top:30px;
+    text-align:center;
+    background:#0F4C81;
+    color:white;
+    padding:15px;
+}

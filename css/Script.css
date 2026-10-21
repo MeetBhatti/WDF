@@ -1,0 +1,175 @@
+body{
+    background-color: #F5F7FA; 
+    font-family: 'Times New Roman', Times, serif; 
+}
+
+nav
+{
+    background-color: #F5F7FA;
+    text-align:center;
+    color:blue;
+    padding:15px;
+}
+
+.welcome-box
+{
+    /*background-color: white;*/
+    padding:20px;
+    border-radius:10px;
+}
+
+h2{
+    text-align:center;
+    text-decoration:black underline;
+    margin-bottom: 20px;
+}
+
+p
+{
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+}
+
+img 
+{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    border: 2px solid black;
+
+}
+/*
+/*step 2 Login */
+/*input
+{
+    width:350px;
+    border-radius: 8px;
+    margin:20px auto;
+    background: white;
+    padding:3px;
+}
+
+input:focus{
+    border:2px solid #0F4C81;
+}
+#required{
+    color:red;
+}
+#button_login
+{
+         background-color:rgb(17, 0, 255);
+          
+}
+.loginpage
+{
+    justify-content: center;
+    align-items: center;
+}
+*/
+body{
+    margin:0;/*space from stating to till our text*/
+    padding:0;
+    background:#eef3f8;
+    display:flex;/*Content in middle center*/
+    flex-direction:column;
+    justify-content:center;
+    align-items:center; /*name and password and login in middle*/
+    min-height :75vh;/* whole part move accroding to size*/
+}
+
+.loginpage{
+
+    background:#F5F7FA;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0px 0px 15px rgba(0,0,0,0.2);
+    margin:auto;
+}
+
+h2{
+    text-align:center;
+    text-decoration:black underline;
+    color:#003366;
+}
+
+p{
+    text-align:center;
+    line-height:25px;
+}
+
+#required{
+    color:red;
+    font-size:15px;
+}
+
+label{
+    font-weight:bold;
+}
+
+input{
+
+    width:125%;
+    padding:7px;
+    margin-top:5px;
+    border-radius:6px;
+    border:1px solid gray;
+    /* box-sizing:border-box; */
+}
+#button_login{
+
+    width:133%; 
+    padding:8px;
+    background:#0056b3;
+    color:white;    
+    border:none;
+    border-radius:6px;
+    font-size:16px;
+     cursor:pointer; 
+}
+footer{
+
+    margin-top:2px;
+    text-align:center;
+    color:black;
+}
+
+/* Part 3   Register*/
+/*.register-box{
+    width: 500px; 
+}
+#button_register
+{
+    width: 100px ;
+    padding:8px;
+    color:white;
+    background:#0056b3;
+    border:none;
+    border-radius:16px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+/* Part 4 Dashboard */
+/*.card{
+    display:flex;
+    width:180px;
+    margin:15px;
+    padding:20px;
+    background:white;
+    border-radius:10px;
+    box-shadow:0 4px 10px lightgray;
+    text-align:center;
+}
+#dashboard
+{
+     width: 100px ;
+    padding:8px;
+    color:white;
+    background:#0056b3;
+    border:none;
+    border-radius:16px;
+    font-size:16px;
+    cursor:pointer;
+}
+*/
