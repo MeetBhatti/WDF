@@ -1,0 +1,107 @@
+[
+    {
+        "id": 1,
+        "name": "Meet Bhatti",
+        "course": "Computer Engineering",
+        "semester": 3,
+        "city": "Ahmedabad"
+    },
+    {
+        "id": 2,
+        "name": "Rahul Patel",
+        "course": "Computer Engineering",
+        "semester": 3,
+        "city": "Surat"
+    },
+    {
+        "id": 3,
+        "name": "Krisha Shah",
+        "course": "Information Technology",
+        "semester": 3,
+        "city": "Vadodara"
+    },
+    {
+        "id": 4,
+        "name": "Amit Desai",
+        "course": "Computer Engineering",
+        "semester": 3,
+        "city": "Rajkot"
+    },
+    {
+        "id": 5,
+        "name": "Neha Patel",
+        "course": "Information Technology",
+        "semester": 3,
+        "city": "Ahmedabad"
+    },
+    {
+        "id": 6,
+        "name": "Riya Shah",
+        "course": "Computer Engineering",
+        "semester": 3,
+        "city": "Anand"
+    },
+    {
+        "id": 7,
+        "name": "Yash Mehta",
+        "course": "Computer Science",
+        "semester": 3,
+        "city": "Surat"
+    },
+    {
+        "id": 8,
+        "name": "Karan Patel",
+        "course": "Computer Engineering",
+        "semester": 3,
+        "city": "Nadiad"
+    },
+    {
+        "id": 9,
+        "name": "Diya Shah",
+        "course": "Computer Science",
+        "semester": 3,
+        "city": "Vadodara"
+    },
+    {
+        "id": 10,
+        "name": "Harsh Joshi",
+        "course": "Information Technology",
+        "semester": 3,
+        "city": "Ahmedabad"
+    },
+    {
+        "id": 11,
+        "name": "Mihir Patel",
+        "course": "Computer Engineering",
+        "semester": 3,
+        "city": "Rajkot"
+    },
+    {
+        "id": 12,
+        "name": "Pooja Shah",
+        "course": "Computer Science",
+        "semester": 3,
+        "city": "Anand"
+    },
+    {
+        "id": 13,
+        "name": "Dev Patel",
+        "course": "Computer Engineering",
+        "semester": 3,
+        "city": "Vadodara"
+    },
+    {
+        "id": 14,
+        "name": "Janki Mehta",
+        "course": "Information Technology",
+        "semester": 3,
+        "city": "Surat"
+    },
+    {
+        "id": 15,
+        "name": "Parth Shah",
+        "course": "Computer Engineering",
+        "semester": 3,
+        "city": "Ahmedabad"
+    }
+]

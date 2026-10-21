@@ -1,0 +1,40 @@
+body{
+    background-color: #F5F7FA; 
+    font-family: 'Times New Roman', Times, serif; 
+}
+
+nav
+{
+    background-color: #F5F7FA;
+    text-align:center;
+    color:blue;
+    padding:15px;
+}
+
+h2{
+    text-align:center;
+    text-decoration:black underline;
+    margin-bottom: 20px;
+}
+
+p
+{
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+}
+
+img 
+{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    border: 2px solid black;
+
+}
+footer{
+
+}
+
+
+

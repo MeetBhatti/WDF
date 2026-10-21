@@ -1,0 +1,27 @@
+{
+    "studentName": "Meet Bhatti",
+    "subjects": [
+        {
+            "subject": "Maths",
+            "marks": 98,
+            "grade": "A+"
+        },
+        {
+            "subject": "Web Development",
+            "marks": 97,
+            "grade": "A+"
+        },
+        {
+            "subject": "Data Structure and Algorithms",
+            "marks": 97,
+            "grade": "A+"
+        },
+        {
+            "subject": "Java",
+            "marks": 99,
+            "grade": "A+"
+        }
+    ],
+    "total": 391,
+    "sgpa": 9.75
+}

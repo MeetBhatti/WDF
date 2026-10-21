@@ -1,0 +1,114 @@
+*{
+    /* margin:0;
+    padding:0; */
+    font-family:'Times New Roman', Times, serif;
+}
+#firsth1{
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 50%;
+    background-color: lightblue;
+}
+.thisisdiv{
+    margin:20px;
+    padding:15px;
+    display: flex;
+    gap:20px;
+    justify-content: center;
+}
+#firstp{
+    text-align: center;
+    border: 3px solid red;
+    margin:auto;
+    padding: 10px;
+    border-radius:15px;
+}
+#secondp{
+    text-align: center;
+    border: 3px solid blue;
+    margin:auto;
+    padding: 10px;
+    border-radius:15px;
+}
+#button{
+    text-align: center;
+    justify-content: center;
+    margin:20px;
+    padding:10px;
+    color:red;
+    background-color:chartreuse;
+}
+.newclass{
+    text-align: center;
+    justify-content: center;
+
+}
+nav{
+    gap:20px;
+    background-color:coral;
+    text-align:center;
+}
+nav a{
+   text-align: center;
+    gap:20px;
+    padding: 10px;
+    margin: 20px;
+}
+nav a:hover{
+    background-color:lightslategrey;
+    color:red;
+}
+#button:hover{
+    background-color:lightslategrey;
+    color:red;  
+}
+.imagesclass{
+    margin:20px;
+    padding:10px;
+    gap:20px;
+    text-align: center;
+    justify-content: center;
+}
+.imagesclass{
+    display: flex;
+}
+#id1{
+    border:1px solid black;
+    margin:20px;
+    padding:10px;
+}
+#id1:hover{
+    background-color:lightslategrey;
+    color:black;
+    transform: scale(1.1);  
+}
+#id2{
+    border:1px solid black;
+    margin:20px;
+    padding:10px;
+}   
+#id2:hover{
+    background-color:lightslategrey;
+    color:black;
+    transform: scale(1.1);  
+}
+#id3{
+    border:1px solid black;
+    margin:20px;
+    padding:10px;
+}
+#id3:hover{
+    background-color:lightslategrey;
+    color:black;
+    transform: scale(1.1);  
+}
+#id4{
+    border:1px solid black;
+    margin:20px;
+    padding:10px;
+}
+#id4:hover{
+    background-color:lightslategrey;
+    color:black;
+    transform: scale(1.1);  
+}

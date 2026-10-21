@@ -1,0 +1,211 @@
+<!--
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student Hub Portal | Result</title>
+
+        <link rel="stylesheet" href="../css/result.css">
+    </head>
+
+    <body>
+
+        <h2>Result Page</h2>
+
+        <p>
+            This page is generally for Result where Students can see Result.
+        </p>
+
+        <p>Here Result is shown.</p>
+
+        <br>
+        <hr>
+
+         Select JSON File -->
+        <!--<input type="file" id="jsonFile" accept=".json">
+
+        <button type="button" onclick="loadResult()">
+            Load Result
+        </button>
+
+        <br><br>
+
+        <table border="1">
+
+            <thead>
+                <tr>
+                    <th>Subject</th>
+                    <th>Marks</th>
+                    <th>Grade</th>
+                </tr>
+            </thead>
+
+        JSON data will come here-->
+            <!--<tbody id="resultData">
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <th>Total</th>
+                    <th id="total"></th>
+                    <th id="resultelement">
+                        SGPA: <span id="sgpa"></span>
+                    </th>
+                </tr>
+            </tfoot>
+
+        </table>
+
+        <hr>
+
+        <br><br>
+
+        <footer>@2026 Student Hub Portal</footer>
+
+         Your common JavaScript file -->
+        <!--<script src="../JS/javascript.js"></script>
+
+    </body>
+</html> 
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Student Hub Portal | Result</title>
+
+    <link rel="stylesheet" href="../css/result.css">
+
+</head>
+
+<body>
+
+    <h2>Result Page</h2>
+
+    <p>
+        This page is generally for Result where Students can see Result.
+    </p>
+
+    <p>Here Result is shown.</p>
+
+    <br>
+
+    <hr>
+
+
+    <!-- Select Result JSON -->
+
+    <p>Select results.json file:</p>
+
+    <input
+        type="file"
+        id="resultJSONFile"
+        accept=".json"
+    >
+
+    <button
+        type="button"
+        onclick="loadResults()"
+    >
+        Load Result
+    </button>
+
+
+    <br><br>
+
+
+    <p id="resultLoading">
+        Loading result...
+    </p>
+
+    <p id="resultError"></p>
+
+
+    <!-- Search -->
+
+    <input
+        type="text"
+        id="resultSearch"
+        placeholder="Search subject..."
+    >
+
+
+    <br><br>
+
+
+    <!-- Sort -->
+
+    <select id="resultSort">
+
+        <option value="none">
+            Sort
+        </option>
+
+        <option value="name">
+            Subject Name
+        </option>
+
+        <option value="marks">
+            Marks
+        </option>
+
+    </select>
+
+
+    <br><br>
+
+
+    <table border="1">
+
+        <thead>
+
+            <tr>
+
+                <th>Subject</th>
+
+                <th>Marks</th>
+
+                <th>Grade</th>
+
+            </tr>
+
+        </thead>
+
+
+        <tbody id="resultTable">
+
+        </tbody>
+
+
+    </table>
+
+
+    <br>
+
+
+    <button id="previousResult">
+        Previous
+    </button>
+
+    <span id="resultPage">
+        1
+    </span>
+
+    <button id="nextResult">
+        Next
+    </button>
+
+
+    <br><br>
+
+
+    <footer>
+        @2026 Student Hub Portal
+    </footer>
+
+
+    <script src="../JS/javascript.js"></script>
+
+</body>
+
+</html> 

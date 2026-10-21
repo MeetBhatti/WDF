@@ -1,0 +1,237 @@
+
+/* Student Hub Portal - Login Page */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f2f5fb;
+    color: #263449;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 16px;
+}
+
+/* Main login container */
+
+.loginpage {
+    width: 100%;
+    max-width: 430px;
+    background: #ffffff;
+    padding: 35px 32px 24px;
+    border: 1px solid #e1e7f0;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(35, 55, 90, 0.08);
+}
+
+/* Back to home link */
+
+.home-link {
+    display: inline-block;
+    margin-bottom: 25px;
+    color: #4263a5;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.home-link:hover {
+    color: #23498d;
+    text-decoration: underline;
+}
+
+/* Login icon */
+
+.login-icon {
+    width: 58px;
+    height: 58px;
+    margin: 0 auto 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e9efff;
+    color: #315bb5;
+    border-radius: 50%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* Heading and description */
+
+.loginpage h1 {
+    text-align: center;
+    font-size: 27px;
+    font-weight: 700;
+    color: #23395d;
+    margin-bottom: 12px;
+}
+
+.login-description {
+    text-align: center;
+    color: #69768b;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.role-note {
+    text-align: center;
+    color: #4263a5;
+    background: #f1f5ff;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 13px;
+    margin-bottom: 24px;
+}
+
+/* Form labels */
+
+.loginpage form label {
+    display: block;
+    margin: 16px 0 8px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #34445e;
+}
+
+/* Input fields */
+
+.loginpage form input {
+    display: block;
+    width: 100%;
+    padding: 12px 13px;
+    border: 1px solid #d5dce8;
+    border-radius: 7px;
+    background: #ffffff;
+    color: #263449;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.loginpage form input::placeholder {
+    color: #9aa4b4;
+}
+
+.loginpage form input:focus {
+    border-color: #426bd3;
+    box-shadow: 0 0 0 3px rgba(66, 107, 211, 0.12);
+}
+
+/* Login button */
+
+.loginpage form button {
+    display: block;
+    width: 100%;
+    margin-top: 25px;
+    padding: 13px;
+    border: none;
+    border-radius: 7px;
+    background: #315bb5;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.2s;
+}
+
+.loginpage form button:hover {
+    background: #254a9b;
+}
+
+.loginpage form button:active {
+    transform: scale(0.99);
+}
+
+.loginpage form button:focus-visible,
+.loginpage a:focus-visible {
+    outline: 3px solid #8eafff;
+    outline-offset: 3px;
+}
+
+/* Login messages */
+
+.error-message,
+.status-message {
+    padding: 11px 12px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.error-message {
+    color: #a52626;
+    background: #fff0f0;
+    border: 1px solid #f2cccc;
+}
+
+.status-message {
+    color: #24633d;
+    background: #edfaf1;
+    border: 1px solid #c9ead3;
+}
+
+/* Student and admin links */
+
+.login-switch {
+    margin-top: 23px;
+    text-align: center;
+}
+
+.login-switch p {
+    color: #68758a;
+    font-size: 13px;
+    line-height: 1.8;
+    margin-top: 8px;
+}
+
+.login-switch a {
+    color: #315bb5;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.login-switch a:hover {
+    color: #203f82;
+    text-decoration: underline;
+}
+
+/* Footer */
+
+.loginpage footer {
+    margin-top: 27px;
+    padding-top: 17px;
+    border-top: 1px solid #edf0f5;
+    text-align: center;
+    color: #929bad;
+    font-size: 12px;
+}
+
+/* Mobile screen */
+
+@media (max-width: 480px) {
+    body {
+        padding: 16px 12px;
+    }
+
+    .loginpage {
+        padding: 27px 21px 22px;
+        border-radius: 10px;
+    }
+
+    .loginpage h1 {
+        font-size: 24px;
+    }
+
+    .login-icon {
+        width: 52px;
+        height: 52px;
+        font-size: 23px;
+    }
+}

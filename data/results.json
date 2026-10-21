@@ -1,0 +1,77 @@
+[
+    {
+        "subject": "Mathematics",
+        "marks": 98,
+        "grade": "A+"
+    },
+    {
+        "subject": "Web Development",
+        "marks": 97,
+        "grade": "A+"
+    },
+    {
+        "subject": "Data Structures and Algorithms",
+        "marks": 95,
+        "grade": "A+"
+    },
+    {
+        "subject": "Java Programming",
+        "marks": 94,
+        "grade": "A"
+    },
+    {
+        "subject": "Computer Networks",
+        "marks": 92,
+        "grade": "A"
+    },
+    {
+        "subject": "Database Management",
+        "marks": 91,
+        "grade": "A"
+    },
+    {
+        "subject": "Operating Systems",
+        "marks": 90,
+        "grade": "A"
+    },
+    {
+        "subject": "Software Engineering",
+        "marks": 89,
+        "grade": "B+"
+    },
+    {
+        "subject": "Computer Architecture",
+        "marks": 88,
+        "grade": "B+"
+    },
+    {
+        "subject": "Communication Skills",
+        "marks": 87,
+        "grade": "B+"
+    },
+    {
+        "subject": "Artificial Intelligence",
+        "marks": 86,
+        "grade": "B+"
+    },
+    {
+        "subject": "Cyber Security",
+        "marks": 85,
+        "grade": "B+"
+    },
+    {
+        "subject": "Cloud Computing",
+        "marks": 84,
+        "grade": "B"
+    },
+    {
+        "subject": "Python Programming",
+        "marks": 83,
+        "grade": "B"
+    },
+    {
+        "subject": "Project Management",
+        "marks": 82,
+        "grade": "B"
+    }
+]

@@ -1,0 +1,39 @@
+/*step1*/
+body {
+    background: #F4F8FC;
+}
+
+h2 {
+    text-align: center;
+    color: #0F4C81;
+}
+
+/*step 2*/
+ul {
+    width: 50%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px lightgray;
+}
+
+/*step3*/
+li {
+    padding: 10px;
+}
+
+a {
+    display: block;
+    text-align: center;
+    color: #0F4C81;
+    font-weight: bold;
+}
+
+footer{
+    margin-top:30px;
+    text-align:center;
+    background:#0F4C81;
+    color:white;
+    padding:15px;
+}

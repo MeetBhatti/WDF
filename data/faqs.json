@@ -1,0 +1,77 @@
+[
+    {
+        "id": 1,
+        "question": "How can I check my result?",
+        "answer": "Open the Result section from the Student Hub dashboard."
+    },
+    {
+        "id": 2,
+        "question": "How can I check my attendance?",
+        "answer": "Open the Attendance section from the Student Hub dashboard."
+    },
+    {
+        "id": 3,
+        "question": "How can I update my profile?",
+        "answer": "Open the Profile section and update your information."
+    },
+    {
+        "id": 4,
+        "question": "Where can I see assignments?",
+        "answer": "Open the Assignment section from the dashboard."
+    },
+    {
+        "id": 5,
+        "question": "Where can I see upcoming events?",
+        "answer": "Upcoming events are displayed on the Home or Dashboard page."
+    },
+    {
+        "id": 6,
+        "question": "How can I check my courses?",
+        "answer": "Open the Courses section from the Student Hub."
+    },
+    {
+        "id": 7,
+        "question": "How can I contact the college?",
+        "answer": "Open the Contact section for contact information."
+    },
+    {
+        "id": 8,
+        "question": "Can I search student information?",
+        "answer": "Yes, use the search box on the student section."
+    },
+    {
+        "id": 9,
+        "question": "Can I filter students?",
+        "answer": "Yes, students can be filtered according to course."
+    },
+    {
+        "id": 10,
+        "question": "Can I sort student records?",
+        "answer": "Yes, records can be sorted by name."
+    },
+    {
+        "id": 11,
+        "question": "What is the Student Hub Portal?",
+        "answer": "It is a portal that provides useful student information in one place."
+    },
+    {
+        "id": 12,
+        "question": "How can I see events?",
+        "answer": "Open the Events section or Dashboard."
+    },
+    {
+        "id": 13,
+        "question": "What is pagination?",
+        "answer": "Pagination displays records in smaller groups across multiple pages."
+    },
+    {
+        "id": 14,
+        "question": "What is JSON?",
+        "answer": "JSON is a lightweight format used to store and exchange structured data."
+    },
+    {
+        "id": 15,
+        "question": "What is Fetch API?",
+        "answer": "Fetch API is used by JavaScript to request data from files or APIs."
+    }
+]

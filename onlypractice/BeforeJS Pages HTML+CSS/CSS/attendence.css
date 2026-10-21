@@ -1,0 +1,34 @@
+body{
+    background:#F4F8FC;
+}
+
+h2{
+    text-align:center;
+    color:#0F4C81;
+}
+
+table{
+    width:75%;
+    margin:auto;
+    border-collapse:collapse;
+    background:white;
+    box-shadow:0 4px 10px lightgray;
+}
+
+th,td{
+    padding:10px;
+    text-align:center;
+}
+
+th{
+    background:#2b2ef2;
+    color:white;
+}
+
+footer{
+    margin-top:30px;
+    text-align:center;
+    background:#0F4C81;
+    color:white;
+    padding:15px;
+}
